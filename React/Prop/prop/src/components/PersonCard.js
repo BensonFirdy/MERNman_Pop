@@ -15,7 +15,7 @@ class PersonCard extends Component{
     render(){
         
         
-        const increaseAge = (e)=>{
+        const increaseAge = ()=>{
             this.setState({age: this.state.age+1})
         }
 
